@@ -1,6 +1,6 @@
 from django.contrib import admin
+from gdemo.models import *
 
 # Register your models here.
-from gdemo.models import *
 
 admin.site.register(Post)
